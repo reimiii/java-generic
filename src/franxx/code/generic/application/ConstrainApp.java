@@ -5,7 +5,7 @@ public class ConstrainApp {
         NumberData<Integer> data = new NumberData<>(122);
         NumberData<Long> longNumberData = new NumberData<>(1929L);
 
-        // NumberData<String> stringNumberData = new NumberData<String>("Hell"); // ERROR
+        // NumberData<String> stringNumberData = new NumberData<String>("Hell"); // ERRORS
     }
 
     public static class NumberData<T extends Number> {
